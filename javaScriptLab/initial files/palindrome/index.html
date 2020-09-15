@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Number</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    function isPalindrome(string) {
+        // return a new array
+        var splitString = string.split("");
+
+        // reverse the new array
+        var reverseArray = splitString.reverse();
+
+        // join elements in array into a string
+        var joinArray = reverseArray.join("");
+
+        if (joinArray == string)
+            return true;
+        else  
+            return false;
+
+    }
+     console.log(isPalindrome("racecar"));   //example for output
+</script>
