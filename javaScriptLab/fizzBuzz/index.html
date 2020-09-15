@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    // Takes a numer (num) as parameter. Logs every number from 1 to num.
+    // For each number, if divisable by 3 logs "Fizz"
+    // if dvisable by 5 logs "Buzz"
+    // if divisable by both, logs "FizzBuzz"
+    function fizzBuzz(num) {
+        for (let i=1; i<num+1; i++) {
+            if ( (i % 3 == 0) && (i % 5 == 0))
+                console.log("FizzBuzz");
+            else if (i % 3 == 0)
+                console.log("Fizz");
+            else if (i % 5 == 0)
+                console.log("Buzz");
+            else 
+                console.log(i);
+        }
+
+    }
+    fizzBuzz(20);   //example for output, ex 20
+</script>
