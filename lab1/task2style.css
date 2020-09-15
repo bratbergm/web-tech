@@ -1,0 +1,57 @@
+
+
+
+
+.container {
+	display: grid;			/* Define container element as grid */
+	margin: 40px auto;
+	max-width: 1800px;
+    grid-template-columns: auto;		/* set column/row sizes */
+    grid-template-rows: auto;
+}
+
+.container h1 {
+	grid-row: 1/2;
+
+}
+
+.box1 {
+	grid-row: 2/3;
+	grid-column: 1/2;
+
+
+}
+
+.box2 {
+	grid-row: 3/4;
+	grid-column: 1/2;
+}
+
+.box3 {
+	grid-row: 2/3;
+	grid-column: 2/3; 
+}
+
+.my-form{
+	padding: 20px 0;
+}
+
+
+.my-form .form-group{	/*Gjelder PER form-group*/
+	padding-bottom: 15px;
+
+}
+
+.my-form label{			/*Sett labels på egen linje*/
+/*	display: block; */
+}
+
+.my-form input{
+	padding: 8px;
+	width: 100%; 
+}
+
+.button {
+	color: white;
+	background-color: green;
+}

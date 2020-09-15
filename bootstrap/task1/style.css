@@ -1,0 +1,30 @@
+
+
+.container {
+	padding: 50px;
+}
+
+
+.header {
+	background-color: green;
+	text-align: center;
+}
+
+.navbar {
+	background-color: blue;
+}
+
+.article {
+	background-color: yellow;
+}
+
+.aside {
+	background-color: orange;
+}
+
+.footer {
+	background-color: red;
+	text-align: center;
+}
+
+/* Different media */

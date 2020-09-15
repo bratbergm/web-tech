@@ -1,0 +1,154 @@
+
+/*Resett - fjerner standard marginer, paddinger
+*{
+	margin:0;
+	padding:0;
+}
+*/
+
+
+body{
+	background-color: #f3f3f3;
+	color: #555555;
+
+/*Font */ 
+/*	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal; */
+
+	/* Kan skrives som*/
+	font: normal 16px Arial, Helvetica, sans-serif;
+
+	line-height: 1.6em;
+	margin: 0;
+}
+
+
+.container{
+	width: 80%;  /* %: teksten responderer når siden endres */
+	margin: auto;  /*Settes i midten*/
+
+
+}
+
+
+
+/*Class*/
+
+.box-1{
+	background-color:#333;
+	color: #fff;
+
+/*Border*/
+	/*Size Color Type/style*/
+	border-right: 5px red solid;
+	/*rundt hele:*/
+	border: 5px red solid;
+
+/*Padding*/
+	padding-top: 20px;
+	/*Rundt hele*/
+	padding: 20px;
+
+/*Margin*/
+	margin-top: 20px;
+	margin: 20px 5px;
+
+}
+
+
+/*Targette alle h1 som er i box-1 classen*/
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+.box-2{
+	border: 3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.categories{
+	border: 1px gray solid;
+	padding: 10px;
+	border-radius: 15px
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	padding-left: 15px;
+	list-style: square;
+}
+
+
+/*Linker*/
+
+a{ /*For alle linker*/
+	text-decoration: none;
+	color: #222;
+}
+
+a:hover{ /*Holder over linker*/
+	color: red;
+}
+
+
+
+
+/*Forms*/
+/*Klassen ga jeg navnet: my-forms*/
+
+.my-form{
+	padding: 20px 0;
+}
+
+
+.my-form .form-group{	/*Gjelder PER form-group*/
+	padding-bottom: 15px;
+}
+
+.my-form label{			/*Sett labels på egen linje*/
+/*	display: block; */
+}
+
+.my-form input{
+	padding: 8px;
+	width: 100%; 
+}
+
+.my-form input[type="submit"]{
+	background-color: #666;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+
+
+
+
+
+/*Margin
+
+p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/*Kortere syntax:
+	/* top, right, bottom, left 
+p{
+	margin: 5px 10px 5px 10px;
+} 
+*/
+
